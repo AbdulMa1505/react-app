@@ -1,0 +1,142 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+  
+}
+.ToDoList{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.AddBtn{
+  background-color: hsl(125, 47, 54%);
+}
+.AddBtn:hover{
+  background-color: hsl(125, 47, 44%);
+}
+.delBtn{
+  background-color: hsl(13, 95%, 49%);
+}
+.delBtn:hover{
+  background-color: hsl(10, 47, 54%);
+}
+.UpBtn{
+  background-color: hsl(235, 84%, 55%);
+}
+.UpBtn:hover{
+  background-color: hsl(262, 84%, 50%);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%,0.5);
+  color: hsla(0, 2%, 49%, 0.5);
+}
+ol{
+  padding: 0;
+  
+  
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color:hsl(0,0%,97%);
+  margin-bottom:10px ;
+  border: 3px solid hsla(0,0%,85%,0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delBtn,.UpBtn{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+ /* body{ 
+  background-image: url();
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+ }
+.clockContainer{
+backdrop-filter: blur(5px);
+}
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 5px hsla(0,0%,0%,0.8);
+  text-align: center;
+} */
+/* .box{
+  border: 3px solid black;
+  padding: 25px;
+} */
+ /* body{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  align-items: center;
+ }
+ .stopWatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid ;
+  border-radius: 10px;
+  padding: 30px;
+ }
+ .display{
+  font-size: 6rem;
+  font-family: monospace;
+  text-shadow: 2px 2px 2px hsla(0,0%,50%,0.8);
+ }
+ .controls button{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 125px;
+  color: white;
+ }
+ .start-button{
+  background-color: hsl(120, 100%, 40%);
+ }
+ .start-button:hover   {
+  background-color: hsl(115, 95%, 35%);
+ }
+ .stop-button{
+  background-color: hsl(10,90%,50%);
+ }
+ .stop-button :hover{
+  background-color: hsl(5,90%,45%);
+ }
+ .resetButton{
+  background-color: hsl(238, 86%, 41%);
+ }
+ .resetButton:hover{
+  background-color: hsl(230, 86%, 30%);
+ } */
